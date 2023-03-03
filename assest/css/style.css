@@ -1,0 +1,97 @@
+/* reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff7f4;
+}
+
+/* common */
+.pad0-80{
+    padding: 0 80px;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.col-2{
+    width: 50%;
+}
+/* main */
+.header{
+    display: flex;
+    margin-top: 40px;
+}
+.header-text{
+    width: 50%;
+    padding-left: 100px;
+}
+.header-text .heading-text h2{
+    font-size: 40px;
+    padding: 8px 0;
+}
+.header-text .content-text{
+    padding-top: 100px;
+}
+.header-avt{
+    width: 50%;
+    text-align: center;
+    margin-right: 40px;
+}
+.header-avt img{
+    width: 200px;
+    border-radius: 50%;
+    border: solid 1px;
+}
+.content{
+    margin-top: 80px;
+    display: flex;
+}
+.content-section{
+    border: solid 1px #000;
+    background-color: #d6f9b5;
+    border-radius: 36px;
+    padding: 28px;
+    margin-left: 36px;
+}
+.content-section .heading-text{
+    padding: 12px 12px 12px 8px;
+    font-size: 20px;
+}
+.content-section .list-info{
+    list-style: none;
+}
+.content-section .list-info li{
+    padding: 8px;
+}
+.skill .content-section{
+    background-color: #f6d3f1;
+}
+.footer{
+    margin-top: 80px;
+}
+.footer .heading-contact{
+    display: flex;
+    margin-left: 36px;
+}
+.heading-contact h3{
+    padding: 8px;
+    font-size: 20px;
+    margin-top: 4px;
+}
+.heading-contact i {
+    padding: 8px 12px;
+    font-size: 28px;
+    color: #000;
+    transition: all .3s ease-in-out;
+}
+.heading-contact i:hover{
+    padding: 4px 12px;
+}

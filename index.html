@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoàng's site</title>
+    <link rel="stylesheet" href="./assest/css/style.css">
+    <link rel="stylesheet" href="./assest/font-icon/fontawesome-free-6.3.0-web/css/all.css">
+</head>
+<body> 
+    <div id="main">
+        <div class="header pad0-80">
+            <div class="header-text">
+                <div class="heading-text">
+                    <h2 class="uppercase" >xin chào</h2>
+                    <p class="capitalize text-title">chào mừng đến với web cá nhân của tôi!</p>
+                </div>
+                <div class="content-text">
+                    <p>Tôi là Nguyễn Huy Hoàng, một sinh viên của trường Đại học Mỏ-Địa Chất. Dưới đây là một vài thông tin về tôi.</p>
+                </div>
+            </div>
+            <div class="header-avt">
+                <img src="./assest/img/avt.jpg" alt="">
+            </div>
+        </div>
+        <div class="content pad0-80">
+            <div class="info col-2">
+                <div class="content-section">
+                    <div class="heading-text capitalize">
+                        <h3>thông tin cá nhân</h3>
+                    </div>
+                    <div class="content-text">
+                        <ul class="list-info capitalize">
+                            <li>họ tên: Nguyễn Huy Hoàng</li>
+                            <li>sinh nhật: 13/05/2002</li>
+                            <li>Sđt: 0347434482</li>
+                            <li style="text-transform: none;">Mail: hoangnguyen130520@gmail.com</li>
+                        </ul>
+    
+                    </div>
+                </div>
+            </div>
+            <div class="skill col-2">
+                <div class="content-section">
+                    <div class="heading-text capitalize">
+                        <h3>thông tin khác</h3>
+                    </div>
+                    <div class="content-text">
+                        <ul class="list-info capitalize">
+                            <li>kiến thức và kĩ năng</li>
+                            <li>kinh nghiệm: sinh viên năm 3, chưa có kinh nghiệm</li>
+                            <li>mục tiêu: full stack developer</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer pad0-80">
+            <div class="heading-contact">
+                <h3 class="capitalize">Liên hệ với tôi:</h3>
+                <a href="https://www.facebook.com/daylahoangnguyen/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/hoangng.135/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/hoangnguyen130"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+    <script>
+        const nablist = document.querySelector('.js-nab-list')
+        const btnopenlist = document.querySelector('.js-header-list-icon')
+        function shownablist(){
+            nablist.classList.add('open')
+        }
+        btnopenlist.addEventListener('click', shownablist)
+        
+        function closenablist(){
+            nablist.classList.remove('open')
+        }
+    </script>
+    
+</body>
+</html>
